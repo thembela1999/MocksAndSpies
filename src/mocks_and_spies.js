@@ -20,3 +20,7 @@ class Sms {
 }
 var sms = new Sms('0633942468', 'changed');
 sms.toString();
+
+module.exports = {
+    Sms
+}
